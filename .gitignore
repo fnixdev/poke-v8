@@ -57,6 +57,7 @@ vc16/Debug_lib/
 *.exp
 *.zip
 include/
+/.vs/
 
 #################
 ## Visual Studio

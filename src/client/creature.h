@@ -237,6 +237,7 @@ protected:
     Color m_outfitColor;
     ScheduledEventPtr m_outfitColorUpdateEvent;
     Timer m_outfitColorTimer;
+    Color m_titleColor;
 
     static std::array<double, Otc::LastSpeedFormula> m_speedFormula;
 
@@ -266,6 +267,7 @@ protected:
     float m_jumpDuration = 0;
     PointF m_jumpOffset;
     Timer m_jumpTimer;
+    
 
     // for bot
     StaticTextPtr m_text;
